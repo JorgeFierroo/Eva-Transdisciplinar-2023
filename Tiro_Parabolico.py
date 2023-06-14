@@ -4,7 +4,7 @@ from pygame.locals import RLEACCEL
 Size = (1100,550) ; lOK = True ; PelotaC = 1 
 g = 9.81 ; x = 50 ; y = 500 ;
 
-v0 = float(input("ingrese una velocidad")) ## v en m/s
+v0 = float(input("ingrese una velocidad: ")) ## v en m/s
 alfa = int(input("ingrese el angulo: ")) ## angulo en grados
 # ecuaciones
 v0x = v0 * NP.cos(NP.deg2rad(alfa))
