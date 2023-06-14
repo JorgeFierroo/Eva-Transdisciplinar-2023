@@ -42,7 +42,7 @@ T = (2 * v0y) / g
 ### Aplicaciones 
 ....
 
-## Programacion 
+## Programación 
 ### Descripción de herramientas utilizadas 
 En el proyecto Tiro Parabólico usamos diferentes tipos de software, el lenguaje de programación Python 2.7.15. Visual Estudio Code para para una edición de código mas eficiente. Github para un control de versiones dentro de un repositorio. También en el código utilizamos librerías tales como numpy y pygame para realizar cálculos trigonométricos necesarios para las fórmulas de nuestro proyecto ( cos, sin, tan ) 
 
