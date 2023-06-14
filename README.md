@@ -7,7 +7,7 @@ En este proyecto, exploraremos el concepto de tiro parabólico y su aplicación 
 El tiro parabólico es un movimiento en dos dimensiones en el cual un objeto es lanzado en un ángulo respecto a la horizontal y sigue una trayectoria parabólica bajo la influencia de la gravedad. Algunos ejemplos de tiro parabólico en la vida cotidiana incluyen lanzar una pelota de baloncesto o un proyectil.
 
 ### Breve Historia asociada(origen)
-........
+El tiro parabólico es un fenómeno importante en la física y tiene numerosas aplicaciones en el mundo real, desde deportes hasta trayectorias de proyectiles. Mediante el uso de las ecuaciones y las simulaciones, pudimos comprender cómo cambian la altura, el alcance y el tiempo de vuelo al variar diferentes parámetros como el ángulo de lanzamiento y la velocidad inicial. Estas conclusiones nos ayudan a comprender mejor el movimiento de los objetos en el aire y su comportamiento bajo la influencia de la gravedad.
 
 ### Matemática empleada
 Para describir el tiro parabólico, utilizamos las siguientes ecuaciones:
@@ -51,7 +51,7 @@ T = (2 * v0y) / g
 
 
 ## Conclusiones
-El tiro parabólico es un fenómeno importante en la física y tiene numerosas aplicaciones en el mundo real, desde deportes hasta trayectorias de proyectiles. Mediante el uso de las ecuaciones y las simulaciones, pudimos comprender cómo cambian la altura, el alcance y el tiempo de vuelo al variar diferentes parámetros como el ángulo de lanzamiento y la velocidad inicial. Estas conclusiones nos ayudan a comprender mejor el movimiento de los objetos en el aire y su comportamiento bajo la influencia de la gravedad.
+
 
 
 
