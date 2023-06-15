@@ -39,8 +39,45 @@ T = (2 * v0y) / g
 
 ### Como se resuelve
 
-....
+Supongamos que queremos calcular la distancia alcanzada por un proyectil lanzado con un ángulo de 45 grados y una velocidad inicial de 20 metros por segundo.
 
+Dadas las siguientes fórmulas del tiro parabólico:
+
+Alcance horizontal (R) = (v^2 * sin(2θ)) / g
+Altura máxima (H) = (v^2 * sin^2(θ)) / (2 * g)
+Donde:
+
+v es la velocidad inicial
+θ es el ángulo de lanzamiento
+g es la aceleración debido a la gravedad
+Conocemos los valores:
+
+v = 20 m/s
+θ = 45 grados
+g = 9.8 m/s^2 (aproximadamente, la aceleración debido a la gravedad en la Tierra)
+Ahora podemos calcular la distancia alcanzada y la altura máxima utilizando las fórmulas mencionadas:
+
+Calculamos el alcance horizontal (R):
+
+R = (20^2 * sin(2 * 45)) / 9.8
+
+R = (400 * sin(90)) / 9.8
+
+R = 400 / 9.8
+
+R ≈ 40.82 metros
+
+Calculamos la altura máxima (H):
+
+H = (20^2 * sin^2(45)) / (2 * 9.8)
+
+H = (400 * 0.5^2) / (2 * 9.8)
+
+H = 200 / (2 * 9.8)
+
+H ≈ 10.20 metros
+
+Entonces,  un proyectil disparado en un ángulo de 45 grados con una velocidad inicial de 20 metros por segundo tendría una distancia horizontal de unos 40,82 metros y  una altura máxima de unos 10,20 metros.
 
 ### Aplicaciones 
 #### Ejemplo de aplicación: Deportes de lanzamiento. 
@@ -127,7 +164,7 @@ Visual Studio Code es un editor de código fuente muy popular y versátil. Sigue
 ...
 
 ## Conclusiones
-Mientras realizábamos este proyecto, nos costó mucho simular la caída de la pelota con un tiro parabólico en un codigo. A medida que estudiamos las ecuaciones y los conceptos involucrados en este tipo de movimiento, nos dimos cuenta de que hay una serie de factores que deben tenerse en cuenta que dificultan la simulación precisa de una pelota que se deja caer. Uno de los mayores desafíos fue tener en cuenta las fluctuaciones gravitatorias que afectan la trayectoria real de la pelota en comparación con el modelo idealizado de un tiro parabólico. A pesar de las dificultades que han surgido, la parábola sigue siendo una ayuda importante en la física y en varios campos de aplicación. Al comprender y aplicar ecuaciones de lanzamiento parabólico, podemos analizar y predecir el movimiento de objetos en situaciones reales, como disparar un proyectil o deportes de lanzamiento. Con la ayuda de estas aplicaciones podemos calcular la trayectoria óptima, la distancia recorrida y la precisión necesaria para alcanzar los objetivos deseados. En conclusión, aunque tuvimos dificultad con el codigo para simular la caída de la pelota con un tiro parabólico, pudimos entender la importancia y utilidad de este concepto en varios campos. Al comprender el tiro parabólico, podemos analizar y predecir el movimiento de objetos en situaciones cotidianas y científicas, lo que nos brinda una mejor comprensión del mundo que nos rodea y nos permite optimizar el rendimiento en diversas actividades y aplicaciones prácticas.
+Mientras realizábamos este proyecto, nos costó mucho simular la caída de la pelota con un tiro parabólico en el codigo. A medida que estudiamos las ecuaciones y los conceptos involucrados en este tipo de movimiento, nos dimos cuenta de que hay una serie de factores que deben tenerse en cuenta que dificultan la simulación precisa de una pelota que se deja caer. Uno de los mayores desafíos fue tener en cuenta las fluctuaciones gravitatorias que afectan la trayectoria real de la pelota en comparación con el modelo idealizado de un tiro parabólico. A pesar de las dificultades que han surgido, la parábola sigue siendo una ayuda importante en la física y en varios campos de aplicación. Al comprender y aplicar ecuaciones de lanzamiento parabólico, podemos analizar y predecir el movimiento de objetos en situaciones reales, como disparar un proyectil o deportes de lanzamiento. Con la ayuda de estas aplicaciones podemos calcular la trayectoria óptima, la distancia recorrida y la precisión necesaria para alcanzar los objetivos deseados. En conclusión, aunque tuvimos dificultad con el codigo para simular la caída de la pelota con un tiro parabólico, pudimos entender la importancia y utilidad de este concepto en varios campos. Al comprender el tiro parabólico, podemos analizar y predecir el movimiento de objetos en situaciones cotidianas y científicas, lo que nos brinda una mejor comprensión del mundo que nos rodea y nos permite optimizar el rendimiento en diversas actividades y aplicaciones prácticas.
 
 
 
