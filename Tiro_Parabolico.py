@@ -1,20 +1,20 @@
-import pygame as PG ; import numpy as NP ;
+import pygame as pg ; import math ;
 from pygame.locals import RLEACCEL 
 
-Size = (1100,550) ; lOK = True ; PelotaC = 1 
-g = 9.81 ; x = 50 ; y = 500 ;
+width = 1100 ; height = 500 ; running = True 
+g = 9.81 ; x = 50 ; y = 500 ; time = 0
 
 v0 = float(input("ingrese una velocidad: ")) ## v en m/s
-alfa = int(input("ingrese el angulo: ")) ## angulo en grados
-# ecuaciones
-v0x = v0 * NP.cos(NP.deg2rad(alfa))
-v0y = v0 * NP.sin(NP.deg2rad(alfa))
-t_total = 2 * v0y / g
-x_final = v0x * t_total
+ang = int(input("ingrese el angulo: ")) ## angulo en grados
 
+#color pelota
+red = (255, 0, 0)
+screen = pg.display.set_caption('Tiro parabolico')
+
+#cargado de imagenes
 def Load_Image(sFile,transp = False):
-    try: image = PG.image.load(sFile)
-    except PG.error as message:
+    try: image = pg.image.load(sFile)
+    except pg.error as message:
            raise SystemExit,message
     image = image.convert()
     if transp:
@@ -22,48 +22,43 @@ def Load_Image(sFile,transp = False):
        image.set_colorkey(color, RLEACCEL)
     return image
 
-def Init_PyGame():
-    PG.init()
-    PG.display.set_caption('Tiro parabolico')
-    return PG.display.set_mode(Size)
+#iniciacion de pygame
+pg.init()
+screen = pg.display.set_mode((width, height)) #asignacion a screen
+pg.display.set_caption('Simulacion de Tiro parabolico') #titulo de ventana
+pg.display.set_mode((width, height)) #tamaño ventana
 
-def Init_Fig():
-    aImg = []
-    aImg.append(Load_Image('pelota.png',True ))
-    aImg.append(Load_Image('fondo.jpg',False ))
-    return aImg
+clock = pg.time.Clock()
+
+#fondo
+aImg = []
+aImg.append(Load_Image('fondo.jpg',False ))
 
 def Fondo():
-    sWin.blit(aFig[1],(0,0))
-
+    screen.blit(aImg[0],(0,0))
     return
 
+#ecuacioones
+def calculate_position(time):
+    radian_angle = math.radians(ang)
+    x = v0 * math.cos(radian_angle) * time   #x = v0 * cos(angulo) * tiempo
+    y = (v0 * math.sin(radian_angle) * time) - (0.5 * g * time ** 2) #y = (v0 * seno (angulo) * tiempo)- (1/2*g*tiempo^2)
+    return x, y
 
+#bucle principal
+while running:
+ cKey = pg.key.get_pressed()
+ if cKey[pg.K_ESCAPE] : running = False
 
-sWin = Init_PyGame() ; aFig = Init_Fig()
-
-def pelota():
-  sWin.blit(aFig[0],(x,y))
-
-while lOK:
- cKey = PG.key.get_pressed()
- if cKey[PG.K_ESCAPE] : lOK = False
- if cKey[PG.K_d] :
-    print("Velocidad en x", v0x)
-    print("Velocidad en y", v0y)
-    print("Tiempo total", t_total)
-    print("Distancia de desplazamiento", x_final)
-    
-
- ev = PG.event.get()
+ ev = pg.event.get()
  for e in ev:
-  if e.type == quit               : lOK = False
-
-
- x= x+v0x
- y = y-v0y
-
+  if e.type == quit               : running = False
+  
+ time += 0.1
+ position = calculate_position(time) 
  Fondo()
- pelota()
- PG.display.flip()
-PG.quit
+ pg.draw.circle(screen, (red), (int(position[0]), int(height - position[1])),20, 5) #dibujo de palota y su posicion en x e y
+ print(position[1]) #mostrar posicion en el eje Y
+ pg.display.flip() #mostrar la pantalla
+ clock.tick(60) #iteraciones por segundo
+pg.quit
