@@ -157,7 +157,11 @@ Visual Studio Code es un editor de código fuente muy popular y versátil. Sigue
 
 ### Guia de Uso (Imágenes, Video tutorial)
 
-....
+1. Comprende los datos: Asegúrate de tener claro cuál es la velocidad inicial con la que se lanza el objeto y el ángulo de lanzamiento. La velocidad inicial es la magnitud de la velocidad con la que el objeto es lanzado, mientras que el ángulo de lanzamiento se refiere a la dirección en la que se lanza en relación con la horizontal.
+2. El programa te pedirá 2 valores, los cuales calculara automáticamente, Velocidad inicial y Angulo.
+![enter image description here](https://cdn.discordapp.com/attachments/960530424063488033/1123673736533508146/image.png)
+3. Ya que los datos fueron ingresados se abrirá una ventana mostrando una simulación de la pelota lanzada, así mismo en la consola donde explicamos los datos, aparecerán toda la información correspondientes a las medidas y distancias, la altura máxima y distancia recorrida aparecerán cuando termine de caer la pelota.
+![enter image description here](https://cdn.discordapp.com/attachments/960530424063488033/1123674186649452655/image.png)
 
 ### Enlace a Video con la explicacion del codigo desarrollado y del fenómeno físico desarrollado 
 
