@@ -96,7 +96,7 @@ En el proyecto Tiro Parabólico usamos diferentes tipos de software:
 - Python 2.7.15. 
 - Visual Estudio Code: para para una edición de código mas eficiente.
 - Github: para un control de versiones dentro de un repositorio. 
-- Librerías: Numpy y Pygame para realizar cálculos trigonométricos necesarios para las fórmulas de nuestro proyecto ( cos, sin, tan ) 
+- Librerías: Math y Pygame para realizar cálculos trigonométricos necesarios para las fórmulas de nuestro proyecto ( cos, sin, tan ) 
 
 ### Guia de Instalación 
 ### 1. Python
