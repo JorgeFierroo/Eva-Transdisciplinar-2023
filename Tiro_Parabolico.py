@@ -27,6 +27,9 @@ def calculate_position(time):
     y = (v0 * math.sin(radian_angle) * time) - (0.5 * g * time ** 2) #y = (v0 * seno (angulo) * tiempo)- (1/2*g*tiempo^2)
     return x, y   # regresa x e y
 
+#mas ecuaciones
+t = (2*v0*math.sin(math.radians(ang)))/g  #Tiempo de vuelo total
+yMax = (v0**2*(math.sin(math.radians(ang))**2))/(2*g) # Altura maxima 
 running = True 
 
 
@@ -45,9 +48,12 @@ while running:
  pg.draw.circle(screen, (verde), (int(position[0]), int(height - position[1])),5, 5) #dibujo de palota y su posicion en x e y
  if position[1] > 0: 
    print("position en el eje Y = " + str((position[1]))) #mostrar posicion en el eje Y
-   altura.append(position[1])
- if position[1] == 0:
-    print("distancia en x = " + str(position[0]) + "\naltura maxima = " + str(max(altura)))
+ if position[1] < 0 and position [1] > -0.7:
+    print("alcance horizontal = " + str(position[0]))
+    print("tiempo total de vuelo = " + str(t))
+    print("altura maxima = " + str(yMax))
+ if position[1] < 0:
+   running = False
 
  
  pg.display.flip() #mostrar la pantalla
