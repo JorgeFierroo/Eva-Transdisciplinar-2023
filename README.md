@@ -93,9 +93,9 @@ Estos ejemplos son solo algunos de cómo se aplica el tiro parabólico a los dep
 ## Programación 
 ### Descripción de herramientas utilizadas 
 En el proyecto Tiro Parabólico usamos diferentes tipos de software: 
-- Python 2.7.15. 
-- Visual Estudio Code: para para una edición de código mas eficiente.
-- Github: para un control de versiones dentro de un repositorio. 
+- Python 2.7.15: Python es un lenguaje de programación interpretado de alto nivel que se usa para desarrollar todo tipo de aplicaciones, ejemplos: Instagram, Netflix, Spotify, los desarrolladores usan Python porque es poderoso y fácil de aprender, y puede ejecutarse en muchas plataformas diferentes.
+- Visual Estudio Code: Visual Studio Code es un editor de código gratuito y fácil de usar que lo  ayuda a codificar rápidamente. Se puede usar cualquier lenguaje de programación sin cambiar el editor. Visual Studio Code es compatible con muchos lenguajes, incluidos Python, Java, C, JavaScript y más.
+- Github: GitHub es un sitio "social coding". Te permite subir repositorios de código para almacenarlo en el sistema de control de versiones, gestión de proyectos y equipos, así como oportunidades para la creación de redes.
 - Librerías: Math y Pygame para realizar cálculos trigonométricos necesarios para las fórmulas de nuestro proyecto ( cos, sin, tan ) 
 
 ### Guia de Instalación 
@@ -105,14 +105,14 @@ Python es un lenguaje de programación ampliamente utilizado. Sigue estos pasos 
 
 1.  Ve al sitio web oficial de Python en [https://www.python.org/](https://www.python.org/).
  
-![enter image description here](https://cdn.discordapp.com/attachments/960530424063488033/1118675139442253956/image.png)
+![enter image description here](https://cdn.discordapp.com/attachments/968204410515775528/1124505950359920751/image.png)
 
 2.  Haz clic en el enlace "Downloads" o "Descargas".
 3.  Selecciona la versión más reciente de Python que sea compatible con tu sistema operativo (Windows, macOS o Linux).
 5.  Descarga el instalador adecuado para tu sistema operativo.
 6.  Ejecuta el instalador descargado y sigue las instrucciones del asistente de instalación.
 
-![enter image description here](https://cdn.discordapp.com/attachments/960530424063488033/1118675320397123584/image.png)
+![enter image description here](https://cdn.discordapp.com/attachments/968204410515775528/1124506171605274664/image.png)
 
 7.  Haz clic en "Install" o "Instalar" para comenzar la instalación.
 8.  Una vez completada la instalación, puedes abrir una terminal y ejecutar el comando `python --version` para verificar que Python se ha instalado correctamente.
@@ -124,11 +124,11 @@ GitHub es una plataforma de desarrollo colaborativo y control de versiones. Sigu
 1.  Ve al sitio web oficial de GitHub en [https://github.com/](https://github.com/).
 2.  Haz clic en el botón "Sign up" o "Registrarse" si aún no tienes una cuenta de GitHub. Completa el proceso de registro para crear una cuenta.
 
-![enter image description here](https://cdn.discordapp.com/attachments/960530424063488033/1118674678525984849/image.png)
+![enter image description here](https://cdn.discordapp.com/attachments/968204410515775528/1124506787719172227/image.png)
 
 3.  Una vez registrado, ve al enlace de descarga de GitHub Desktop en [https://desktop.github.com/](https://desktop.github.com/).
 
-![enter image description here](https://cdn.discordapp.com/attachments/960530424063488033/1118674902866731100/image.png)
+![enter image description here](https://cdn.discordapp.com/attachments/968204410515775528/1124506321333526638/image.png)
 
 4.  Descarga el instalador de GitHub Desktop para tu sistema operativo.
 5.  Ejecuta el instalador descargado y sigue las instrucciones del asistente de instalación.
@@ -142,7 +142,7 @@ Visual Studio Code es un editor de código fuente muy popular y versátil. Sigue
 
 1.  Ve al sitio web oficial de Visual Studio Code en [https://code.visualstudio.com/](https://code.visualstudio.com/).
 
-![enter image description here](https://cdn.discordapp.com/attachments/960530424063488033/1118675913291341944/image.png)
+![enter image description here](https://cdn.discordapp.com/attachments/968204410515775528/1124506994901012500/image.png)
 
 2.  Haz clic en el botón "Download" o "Descargar".
 3.  Selecciona el instalador adecuado para tu sistema operativo (Windows, macOS o Linux).
@@ -150,7 +150,7 @@ Visual Studio Code es un editor de código fuente muy popular y versátil. Sigue
 5.  Sigue las instrucciones del asistente de instalación.
 6.  Durante la instalación, puedes dejar las opciones predeterminadas seleccionadas.
    
-![enter image description here](https://cdn.discordapp.com/attachments/960530424063488033/1118676284298506280/image.png)
+![enter image description here](https://cdn.discordapp.com/attachments/968204410515775528/1124507351454584912/image.png)
 
 7.  Haz clic en "Next" o "Siguiente" para comenzar la instalación.
 8.  Una vez completada la instalación, puedes abrir Visual Studio Code y comenzar a utilizarlo como tu editor de código preferido.
