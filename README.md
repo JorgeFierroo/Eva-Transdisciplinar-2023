@@ -168,7 +168,7 @@ Visual Studio Code es un editor de código fuente muy popular y versátil. Sigue
 
 ### Enlace a Video con la explicacion del codigo desarrollado y del fenómeno físico desarrollado 
 
-...
+[...](https://youtu.be/GEsoHhCtTec)
 
 ## Conclusiones
 Mientras realizábamos este proyecto, nos costó mucho simular la caída de la pelota con un tiro parabólico en el codigo. A medida que estudiamos las ecuaciones y los conceptos involucrados en este tipo de movimiento, nos dimos cuenta de que hay una serie de factores que deben tenerse en cuenta que dificultan la simulación precisa de una pelota que se deja caer. Uno de los mayores desafíos fue tener en cuenta las fluctuaciones gravitatorias que afectan la trayectoria real de la pelota en comparación con el modelo idealizado de un tiro parabólico. A pesar de las dificultades que han surgido, la parábola sigue siendo una ayuda importante en la física y en varios campos de aplicación. Al comprender y aplicar ecuaciones de lanzamiento parabólico, podemos analizar y predecir el movimiento de objetos en situaciones reales, como disparar un proyectil o deportes de lanzamiento. Con la ayuda de estas aplicaciones podemos calcular la trayectoria óptima, la distancia recorrida y la precisión necesaria para alcanzar los objetivos deseados. En conclusión, aunque tuvimos dificultad con el codigo para simular la caída de la pelota con un tiro parabólico, pudimos entender la importancia y utilidad de este concepto en varios campos. Al comprender el tiro parabólico, podemos analizar y predecir el movimiento de objetos en situaciones cotidianas y científicas, lo que nos brinda una mejor comprensión del mundo que nos rodea y nos permite optimizar el rendimiento en diversas actividades y aplicaciones prácticas.
